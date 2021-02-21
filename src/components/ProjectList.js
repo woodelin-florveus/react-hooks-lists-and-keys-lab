@@ -5,7 +5,6 @@ function ProjectList({ projects }) {
   // console.log(projects);
 
   const projectElement = projects.map((proObj) => {
-      console.log(proObj)
     return (
       <ProjectItem 
     key = {proObj.id}
