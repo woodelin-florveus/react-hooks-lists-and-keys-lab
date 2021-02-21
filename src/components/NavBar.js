@@ -8,7 +8,7 @@ function NavBar() {
 
   const navElements = links.map((link) => {
     // console.log(link)
-    return <a key= {link} href={link}>{link}</a> 
+    return <a key= {link} href={"#" + link}>{link}</a> 
   });
     return   <nav> {navElements} </nav>
     
