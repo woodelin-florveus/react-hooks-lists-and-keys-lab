@@ -5,12 +5,13 @@ function ProjectList({ projects }) {
   // console.log(projects);
 
   const projectElement = projects.map((proObj) => {
-
+      console.log(proObj)
     return (
       <ProjectItem 
-    key = {proObj.key}
+    key = {proObj.id}
     name = {proObj.name}
     about = {proObj.about}
+    technologies = {proObj.technologies}
     />
     )
 
